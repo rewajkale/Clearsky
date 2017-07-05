@@ -9,7 +9,7 @@ public class ServletInit extends AbstractAnnotationConfigDispatcherServletInitia
 		//return new Class[]{WebConfig.class};
 		return new Class[]{
 				WebConfig.class,
-				JPAConfig.class
+				JPAConfig.class, SwaggerConfig.class
 			};
 	}
 

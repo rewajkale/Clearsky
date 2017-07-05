@@ -41,7 +41,7 @@ public class JPAConfig {
 	public DataSource getDataSource(){
 		DriverManagerDataSource ds=new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost:3306/weather-db");
+		ds.setUrl("jdbc:mysql://localhost:3306/weather_db");
 		ds.setUsername("root");
 		ds.setPassword("tiger");
 		return ds;
